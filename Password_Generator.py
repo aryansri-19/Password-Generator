@@ -73,7 +73,7 @@ def custom_password():
     else: 
         limit = rnd.randrange(min,20)
     
-    words = input("Enter details (eg. Name, Pet name, Date of birth,\n Partner's Name, City of residence, Favourite football team, Social media app using etc.): ").split()
+    words = input("Enter details (eg. Name, Pet name, Date of birth,\n Partner's Name, City of residence,\n Favourite football team, Social media app using etc.): ").split()
     
     password = ''
     while len(password) <= limit:
